@@ -1,0 +1,116 @@
+#create input {
+	display: block;
+	border-radius: 5px;
+	border: none;
+	background-color: #fff;
+	padding: 15px 20px;
+	margin: 10px 30px;
+	width: calc(100% - 100px);
+}
+
+#create .item i {
+	width: 28px;
+	height: 28px;
+	display: block;
+	background-size: contain;
+	position: absolute;
+	background-repeat: no-repeat;
+	margin-left: 120px;
+	margin-top: 119px;
+}
+
+#create .results {
+	margin-left: 20px;
+	margin-right: 15px;
+}
+
+#create div.item {
+	width: 150px;
+	float: left;
+	margin: 10px;
+	background-color: #cccccc;
+	border-radius: 3px;
+	padding: 5px;
+	height: 150px;
+	overflow: hidden;
+	font-size: 10.5pt;
+	background-image: url(i/item-bg2.png);
+	background-size: contain;
+}
+
+#create dl {
+	margin: 0px;
+	padding: 10px;
+}
+
+#create dd {
+	margin-left: 0px;
+	padding-left: 0px;
+}
+
+#create div.item.science-machine {
+	background-color: #98aa82;
+}
+
+#create div.item.alchemy-engine {
+	background-color: #e9c9a3;
+}
+
+#create div.item.prestihatitator {
+	background-color: #dd738e;		
+}
+
+#create div.item.shadow-manipulator {
+	background-color: #a7abc0;		
+}
+
+#create dd.requires {
+	font-style: italic;
+	font-size: 8pt;
+	margin-bottom: 5px;
+}
+
+#create dt {
+	font-weight: bold;
+	text-transform: capitalize;
+}
+
+#create .Tools i {
+	background-image: url(i/cats/tools.png);
+}
+
+#create .Light i {
+	background-image: url(i/cats/light.png);
+}
+
+#create .Dress i {
+	background-image: url(i/cats/dress.png);
+}
+
+#create .Fight i {
+	background-image: url(i/cats/fight.png);
+}
+
+#create .Food i {
+	background-image: url(i/cats/food.png);
+}
+
+#create .Magic i {
+	background-image: url(i/cats/magic.png);
+}
+
+#create .Refine i {
+	background-image: url(i/cats/refine.png);
+}
+
+#create .science i {
+	background-image: url(i/cats/science.png);
+}
+
+#create .Structures i {
+	background-image: url(i/cats/structures.png);
+}
+
+#create .Survival i {
+	background-image: url(i/cats/survival.png);
+}

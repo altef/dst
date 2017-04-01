@@ -1,0 +1,143 @@
+#gather > * {
+	float: left;
+}
+#gather label {
+	display: block;
+	margin-bottom: 20px;
+}
+#gather textarea {
+	width: 150px;
+	padding: 25px;
+	border: none;
+	background-color: #fff;
+	border-radius: 5px;
+	line-height: 14pt;
+	min-height: 350px;
+}
+
+#gather {
+	padding: 20px 30px;
+	min-width: 420px;
+}
+
+#gather .arrows {
+	width: 25px;
+	min-height: 370px;
+	margin-top: 50px;
+	background-image: url(i/arrows.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	z-index: 2;
+	margin-left: 198px;
+}
+
+#gather .results {
+	width: 150px;
+	padding: 25px;
+	border: none;
+	background-color: #c7cad2;
+	border-radius: 5px;
+	line-height: 14pt;
+	min-height: 350px;
+	margin-top: 39px;
+	margin-left: 15px;
+	margin-bottom: 40px;
+}
+
+#gather .instructions {
+	max-width: 300px;
+	line-height: 13pt;
+	margin-left: 20px;
+	margin-top: 22px;
+	font-size: 9.5pt;
+}
+
+#gather .instructions h3 {
+	font-weight: 400;
+	font-size: 12pt;
+}
+
+#gather .errors {
+	position: absolute;
+	margin-left: 215px;
+	margin-top: -1px;
+	width: 520px;
+	height: 23px;
+	overflow: hidden;
+}
+
+#gather .errors p {
+	margin: 0px;
+	margin-bottom: 2px;
+	background-color: #c30000;
+	color: #fff;
+	padding: 4px 7px;
+	font-size: 9pt;
+	border-radius: 3px;
+}
+
+#gather .results ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+
+.textcomplete-dropdown {
+	border-collapse: collapse;
+}
+
+.textcomplete-dropdown li {
+	border: 1px solid #ddd;
+	padding: 5px;
+	display: block;
+	margin: 0px;
+	transition: background 0.5s;
+	min-width: 100px;
+	background-color: white;
+}
+
+.textcomplete-dropdown li:first-child {
+	border-top: none;
+}
+
+.textcomplete-dropdown li:hover,
+.textcomplete-dropdown .active {
+	background-color: #666;
+	color: #fff;
+}
+
+.textcomplete-dropdown {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.textcomplete-dropdown a:hover {
+	cursor: pointer;
+}
+
+
+
+@media all and (max-width: 877px) {
+	#gather .instructions {
+		margin-left: 0px;
+		border-top: solid 1px #ddd;
+		max-width: 415px;
+		float: none;
+		clear: both;
+	}
+	
+	#gather .errors {
+		display: block;
+		position: relative;
+		margin: 0px;
+		height: auto;
+		margin-top: 0px;
+		clear: both;
+		float: none;
+		width: 418px;
+		margin-bottom: 15px;
+	}
+}

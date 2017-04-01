@@ -1,0 +1,2102 @@
+{
+    "axe": {
+        "components": [
+            [
+                "1",
+                "twig"
+            ],
+            [
+                "1",
+                "flint"
+            ]
+        ],
+        "requires": ""
+    },
+    "pickaxe": {
+        "components": [
+            [
+                "2",
+                "twig"
+            ],
+            [
+                "2",
+                "flint"
+            ]
+        ],
+        "requires": ""
+    },
+    "hammer": {
+        "components": [
+            [
+                "3",
+                "twig"
+            ],
+            [
+                "3",
+                "stone"
+            ],
+            [
+                "2",
+                "rope"
+            ]
+        ],
+        "requires": ""
+    },
+    "shovel": {
+        "components": [
+            [
+                "2",
+                "twig"
+            ],
+            [
+                "2",
+                "flint"
+            ]
+        ],
+        "requires": "science machine"
+    },
+    "pitchfork": {
+        "components": [
+            [
+                "2",
+                "twig"
+            ],
+            [
+                "2",
+                "flint"
+            ]
+        ],
+        "requires": "science machine"
+    },
+    "razor": {
+        "components": [
+            [
+                "2",
+                "twig"
+            ],
+            [
+                "2",
+                "flint"
+            ]
+        ],
+        "requires": "science machine"
+    },
+    "luxury axe": {
+        "components": [
+            [
+                "2",
+                "gold"
+            ],
+            [
+                "4",
+                "twig"
+            ]
+        ],
+        "requires": "alchemy engine"
+    },
+    "regal shovel": {
+        "components": [
+            [
+                "2",
+                "gold"
+            ],
+            [
+                "4",
+                "twig"
+            ]
+        ],
+        "requires": "alchemy engine"
+    },
+    "opulent pickaxe": {
+        "components": [
+            [
+                "2",
+                "gold"
+            ],
+            [
+                "4",
+                "twig"
+            ]
+        ],
+        "requires": "alchemy engine"
+    },
+    "saddlehorn": {
+        "components": [
+            [
+                "2",
+                "twig"
+            ],
+            [
+                "2",
+                "bone shards"
+            ],
+            [
+                "1",
+                "jet feather"
+            ]
+        ],
+        "requires": "alchemy engine"
+    },
+    "saddle": {
+        "components": [
+            [
+                "4",
+                "beefalo wool"
+            ],
+            [
+                "4",
+                "pig skin"
+            ],
+            [
+                "4",
+                "gold"
+            ]
+        ],
+        "requires": "alchemy engine"
+    },
+    "war saddle": {
+        "components": [
+            [
+                "4",
+                "rabbit"
+            ],
+            [
+                "10",
+                "wood"
+            ],
+            [
+                "4",
+                "steel wool"
+            ]
+        ],
+        "requires": "alchemy engine"
+    },
+    "glossamer saddle": {
+        "components": [
+            [
+                "2",
+                "living log"
+            ],
+            [
+                "4",
+                "silk"
+            ],
+            [
+                "68",
+                "butterfly wings"
+            ]
+        ],
+        "requires": "alchemy engine"
+    },
+    "brush": {
+        "components": [
+            [
+                "1",
+                "steel wool"
+            ],
+            [
+                "2",
+                "gold"
+            ],
+            [
+                "1",
+                "walrus tusk"
+            ]
+        ],
+        "requires": "alchemy engine"
+    },
+    "salt lick": {
+        "components": [
+            [
+                "2",
+                "board"
+            ],
+            [
+                "4",
+                "nitre"
+            ]
+        ],
+        "requires": "alchemy engine"
+    },
+    "camp fire": {
+        "components": [
+            [
+                "2",
+                "wood"
+            ],
+            [
+                "3",
+                "grass"
+            ]
+        ],
+        "requires": ""
+    },
+    "fire pit": {
+        "components": [
+            [
+                "2",
+                "wood"
+            ],
+            [
+                "12",
+                "stone"
+            ]
+        ],
+        "requires": ""
+    },
+    "endothermic fire": {
+        "components": [
+            [
+                "3",
+                "grass"
+            ],
+            [
+                "2",
+                "nitre"
+            ]
+        ],
+        "requires": ""
+    },
+    "endothermic fire pit": {
+        "components": [
+            [
+                "3",
+                "grass"
+            ],
+            [
+                "2",
+                "nitre"
+            ]
+        ],
+        "requires": "science machine"
+    },
+    "torch": {
+        "components": [
+            [
+                "2",
+                "grass"
+            ],
+            [
+                "2",
+                "twig"
+            ]
+        ],
+        "requires": ""
+    },
+    "miner's hat": {
+        "components": [
+            [
+                "1",
+                "straw hat"
+            ],
+            [
+                "1",
+                "gold"
+            ],
+            [
+                "1",
+                "fireflies"
+            ]
+        ],
+        "requires": "alchemy engine"
+    },
+    "moggles": {
+        "components": [
+            [
+                "2",
+                "moleworm"
+            ],
+            [
+                "2",
+                "electrical doodad"
+            ],
+            [
+                "1",
+                "glow berry"
+            ]
+        ],
+        "requires": "alchemy engine"
+    },
+    "pumpkin lantern": {
+        "components": [
+            [
+                "1",
+                "pumpkin"
+            ],
+            [
+                "1",
+                "fireflies"
+            ]
+        ],
+        "requires": "alchemy engine"
+    },
+    "lantern": {
+        "components": [
+            [
+                "2",
+                "lightbulb"
+            ],
+            [
+                "3",
+                "twig"
+            ],
+            [
+                "2",
+                "rope"
+            ]
+        ],
+        "requires": "alchemy engine"
+    },
+    "telltale heart": {
+        "components": [
+            [
+                "3",
+                "grass"
+            ],
+            [
+                "1",
+                "spider gland"
+            ],
+            [
+                "40",
+                "health"
+            ]
+        ],
+        "requires": ""
+    },
+    "healing salve": {
+        "components": [
+            [
+                "2",
+                "ash"
+            ],
+            [
+                "1",
+                "stone"
+            ],
+            [
+                "1",
+                "spider gland"
+            ]
+        ],
+        "requires": "science machine"
+    },
+    "trap": {
+        "components": [
+            [
+                "6",
+                "grass"
+            ],
+            [
+                "2",
+                "twig"
+            ]
+        ],
+        "requires": ""
+    },
+    "bird trap": {
+        "components": [
+            [
+                "3",
+                "twig"
+            ],
+            [
+                "4",
+                "silk"
+            ]
+        ],
+        "requires": "science machine"
+    },
+    "umbrella": {
+        "components": [
+            [
+                "6",
+                "twig"
+            ],
+            [
+                "1",
+                "pig skin"
+            ],
+            [
+                "2",
+                "silk"
+            ]
+        ],
+        "requires": "science machine"
+    },
+    "bug net": {
+        "components": [
+            [
+                "4",
+                "twig"
+            ],
+            [
+                "2",
+                "silk"
+            ],
+            [
+                "1",
+                "rope"
+            ]
+        ],
+        "requires": "science machine"
+    },
+    "fishing rod": {
+        "components": [
+            [
+                "2",
+                "twig"
+            ],
+            [
+                "2",
+                "silk"
+            ]
+        ],
+        "requires": "science machine"
+    },
+    "pretty parasol": {
+        "components": [
+            [
+                "4",
+                "twig"
+            ],
+            [
+                "3",
+                "grass"
+            ],
+            [
+                "6",
+                "petals"
+            ]
+        ],
+        "requires": ""
+    },
+    "waterballoon": {
+        "components": [
+            [
+                "2",
+                "mosquito sack"
+            ],
+            [
+                "1",
+                "ice"
+            ]
+        ],
+        "requires": ""
+    },
+    "compass": {
+        "components": [
+            [
+                "1",
+                "gold"
+            ],
+            [
+                "1",
+                "flint"
+            ]
+        ],
+        "requires": ""
+    },
+    "backpack": {
+        "components": [
+            [
+                "4",
+                "grass"
+            ],
+            [
+                "4",
+                "twig"
+            ]
+        ],
+        "requires": "science machine"
+    },
+    "straw roll": {
+        "components": [
+            [
+                "6",
+                "grass"
+            ],
+            [
+                "1",
+                "rope"
+            ]
+        ],
+        "requires": "science machine"
+    },
+    "whirly fan": {
+        "components": [
+            [
+                "3",
+                "twig"
+            ],
+            [
+                "1",
+                "petals"
+            ]
+        ],
+        "requires": ""
+    },
+    "honey poultice": {
+        "components": [
+            [
+                "1",
+                "papyrus"
+            ],
+            [
+                "2",
+                "honey"
+            ]
+        ],
+        "requires": "alchemy engine"
+    },
+    "booster shot": {
+        "components": [
+            [
+                "8",
+                "rot"
+            ],
+            [
+                "2",
+                "nitre"
+            ],
+            [
+                "1",
+                "stinger"
+            ]
+        ],
+        "requires": ""
+    },
+    "thermal stone": {
+        "components": [
+            [
+                "10",
+                "stone"
+            ],
+            [
+                "1",
+                "pickaxe"
+            ],
+            [
+                "3",
+                "flint"
+            ]
+        ],
+        "requires": "alchemy engine"
+    },
+    "piggyback": {
+        "components": [
+            [
+                "4",
+                "pig skin"
+            ],
+            [
+                "6",
+                "silk"
+            ],
+            [
+                "2",
+                "rope"
+            ]
+        ],
+        "requires": "alchemy engine"
+    },
+    "fur roll": {
+        "components": [
+            [
+                "1",
+                "straw roll"
+            ],
+            [
+                "2",
+                "bunny puff"
+            ]
+        ],
+        "requires": "alchemy engine"
+    },
+    "tent": {
+        "components": [
+            [
+                "6",
+                "silk"
+            ],
+            [
+                "4",
+                "twig"
+            ],
+            [
+                "3",
+                "rope"
+            ]
+        ],
+        "requires": "alchemy engine"
+    },
+    "siesta lean-to": {
+        "components": [
+            [
+                "2",
+                "silk"
+            ],
+            [
+                "4",
+                "board"
+            ],
+            [
+                "3",
+                "rope"
+            ]
+        ],
+        "requires": "alchemy engine"
+    },
+    "luxury fan": {
+        "components": [
+            [
+                "5",
+                "down feather"
+            ],
+            [
+                "2",
+                "reed"
+            ],
+            [
+                "2",
+                "rope"
+            ]
+        ],
+        "requires": "alchemy engine"
+    },
+    "insulated pack": {
+        "components": [
+            [
+                "1",
+                "thick fur"
+            ],
+            [
+                "3",
+                "gears"
+            ],
+            [
+                "3",
+                "electrical doodad"
+            ]
+        ],
+        "requires": "alchemy engine"
+    },
+    "basic farm": {
+        "components": [
+            [
+                "8",
+                "grass"
+            ],
+            [
+                "4",
+                "manure"
+            ],
+            [
+                "4",
+                "wood"
+            ]
+        ],
+        "requires": "science machine"
+    },
+    "bee box": {
+        "components": [
+            [
+                "2",
+                "board"
+            ],
+            [
+                "1",
+                "honeycomb"
+            ]
+        ],
+        "requires": "science machine"
+    },
+    "drying rack": {
+        "components": [
+            [
+                "3",
+                "twig"
+            ],
+            [
+                "2",
+                "charcoal"
+            ],
+            [
+                "3",
+                "rope"
+            ]
+        ],
+        "requires": "science machine"
+    },
+    "crock pot": {
+        "components": [
+            [
+                "3",
+                "cut stone"
+            ],
+            [
+                "6",
+                "charcoal"
+            ],
+            [
+                "6",
+                "twig"
+            ]
+        ],
+        "requires": "science machine"
+    },
+    "bucket-o-poop": {
+        "components": [
+            [
+                "3",
+                "manure"
+            ],
+            [
+                "2",
+                "bone shards"
+            ],
+            [
+                "4",
+                "wood"
+            ]
+        ],
+        "requires": "alchemy engine"
+    },
+    "improved farm": {
+        "components": [
+            [
+                "10",
+                "grass"
+            ],
+            [
+                "6",
+                "manure"
+            ],
+            [
+                "4",
+                "stone"
+            ]
+        ],
+        "requires": "alchemy engine"
+    },
+    "icebox": {
+        "components": [
+            [
+                "1",
+                "board"
+            ],
+            [
+                "1",
+                "gears"
+            ],
+            [
+                "2",
+                "gold"
+            ]
+        ],
+        "requires": "alchemy engine"
+    },
+    "science machine": {
+        "components": [
+            [
+                "1",
+                "gold"
+            ],
+            [
+                "4",
+                "wood"
+            ],
+            [
+                "4",
+                "stone"
+            ]
+        ],
+        "requires": ""
+    },
+    "alchemy engine": {
+        "components": [
+            [
+                "4",
+                "board"
+            ],
+            [
+                "2",
+                "cut stone"
+            ],
+            [
+                "2",
+                "electrical doodad"
+            ]
+        ],
+        "requires": "science machine"
+    },
+    "electrical doodad": {
+        "components": [
+            [
+                "2",
+                "gold"
+            ],
+            [
+                "1",
+                "cut stone"
+            ]
+        ],
+        "requires": "science machine"
+    },
+    "thermal measurer": {
+        "components": [
+            [
+                "2",
+                "board"
+            ],
+            [
+                "2",
+                "gold"
+            ]
+        ],
+        "requires": "science machine"
+    },
+    "rainometer": {
+        "components": [
+            [
+                "2",
+                "board"
+            ],
+            [
+                "2",
+                "gold"
+            ],
+            [
+                "2",
+                "rope"
+            ]
+        ],
+        "requires": "science machine"
+    },
+    "lightning rod": {
+        "components": [
+            [
+                "4",
+                "gold"
+            ],
+            [
+                "1",
+                "cut stone"
+            ]
+        ],
+        "requires": "science machine"
+    },
+    "divining rod": {
+        "components": [
+            [
+                "1",
+                "twig"
+            ],
+            [
+                "4",
+                "nightmare fuel"
+            ],
+            [
+                "1",
+                "gears"
+            ]
+        ],
+        "requires": "alchemy engine"
+    },
+    "gun powder": {
+        "components": [
+            [
+                "1",
+                "rotten egg"
+            ],
+            [
+                "1",
+                "charcoal"
+            ],
+            [
+                "1",
+                "nitre"
+            ]
+        ],
+        "requires": "alchemy engine"
+    },
+    "accomploshrine": {
+        "components": [
+            [
+                "6",
+                "gears"
+            ],
+            [
+                "10",
+                "gold"
+            ],
+            [
+                "1",
+                "cut stone"
+            ]
+        ],
+        "requires": "alchemy engine"
+    },
+    "ice flingomatic": {
+        "components": [
+            [
+                "2",
+                "gears"
+            ],
+            [
+                "15",
+                "ice"
+            ],
+            [
+                "2",
+                "electrical doodad"
+            ]
+        ],
+        "requires": "alchemy engine"
+    },
+    "grass suit": {
+        "components": [
+            [
+                "10",
+                "grass"
+            ],
+            [
+                "2",
+                "twig"
+            ]
+        ],
+        "requires": ""
+    },
+    "spear": {
+        "components": [
+            [
+                "2",
+                "twig"
+            ],
+            [
+                "1",
+                "rope"
+            ],
+            [
+                "1",
+                "flint"
+            ]
+        ],
+        "requires": "science machine"
+    },
+    "log suit": {
+        "components": [
+            [
+                "8",
+                "wood"
+            ],
+            [
+                "2",
+                "rope"
+            ]
+        ],
+        "requires": "science machine"
+    },
+    "bee mine": {
+        "components": [
+            [
+                "1",
+                "board"
+            ],
+            [
+                "4",
+                "bee"
+            ],
+            [
+                "1",
+                "flint"
+            ]
+        ],
+        "requires": "science machine"
+    },
+    "sleep dart": {
+        "components": [
+            [
+                "2",
+                "reed"
+            ],
+            [
+                "1",
+                "stinger"
+            ],
+            [
+                "1",
+                "jet feather"
+            ]
+        ],
+        "requires": "science machine"
+    },
+    "fire dart": {
+        "components": [
+            [
+                "2",
+                "reed"
+            ],
+            [
+                "1",
+                "charcoal"
+            ],
+            [
+                "1",
+                "crimson feather"
+            ]
+        ],
+        "requires": "science machine"
+    },
+    "blow dart": {
+        "components": [
+            [
+                "2",
+                "reed"
+            ],
+            [
+                "1",
+                "hound's tooth"
+            ],
+            [
+                "1",
+                "azure feather"
+            ]
+        ],
+        "requires": "science machine"
+    },
+    "ham bat": {
+        "components": [
+            [
+                "1",
+                "pig skin"
+            ],
+            [
+                "2",
+                "twig"
+            ],
+            [
+                "2",
+                "meat"
+            ]
+        ],
+        "requires": "alchemy engine"
+    },
+    "marble suit": {
+        "components": [
+            [
+                "12",
+                "marble"
+            ],
+            [
+                "4",
+                "rope"
+            ]
+        ],
+        "requires": "alchemy engine"
+    },
+    "football helmet": {
+        "components": [
+            [
+                "1",
+                "pig skin"
+            ],
+            [
+                "1",
+                "rope"
+            ]
+        ],
+        "requires": "alchemy engine"
+    },
+    "boomerang": {
+        "components": [
+            [
+                "1",
+                "board"
+            ],
+            [
+                "1",
+                "silk"
+            ],
+            [
+                "1",
+                "charcoal"
+            ]
+        ],
+        "requires": "alchemy engine"
+    },
+    "tooth trap": {
+        "components": [
+            [
+                "1",
+                "wood"
+            ],
+            [
+                "1",
+                "rope"
+            ],
+            [
+                "1",
+                "hound's tooth"
+            ]
+        ],
+        "requires": "alchemy engine"
+    },
+    "scalemail": {
+        "components": [
+            [
+                "1",
+                "scales"
+            ],
+            [
+                "1",
+                "log suit"
+            ],
+            [
+                "3",
+                "pig skin"
+            ]
+        ],
+        "requires": "alchemy engine"
+    },
+    "weather pain": {
+        "components": [
+            [
+                "10",
+                "down feather"
+            ],
+            [
+                "1",
+                "volt goat horn"
+            ],
+            [
+                "1",
+                "gears"
+            ]
+        ],
+        "requires": "alchemy engine"
+    },
+    "morning star": {
+        "components": [
+            [
+                "1",
+                "volt goat horn"
+            ],
+            [
+                "2",
+                "electrical doodad"
+            ],
+            [
+                "2",
+                "nitre"
+            ]
+        ],
+        "requires": "alchemy engine"
+    },
+    "tail o' three cats": {
+        "components": [
+            [
+                "3",
+                "cat tail"
+            ],
+            [
+                "3",
+                "tentacle spots"
+            ]
+        ],
+        "requires": "alchemy engine"
+    },
+    "chest": {
+        "components": [
+            [
+                "3",
+                "board"
+            ]
+        ],
+        "requires": "science machine"
+    },
+    "sign": {
+        "components": [
+            [
+                "1",
+                "board"
+            ]
+        ],
+        "requires": "science machine"
+    },
+    "directional sign": {
+        "components": [
+            [
+                "1",
+                "board"
+            ]
+        ],
+        "requires": "science machine"
+    },
+    "hay wall": {
+        "components": [
+            [
+                "4",
+                "grass"
+            ],
+            [
+                "2",
+                "twig"
+            ]
+        ],
+        "requires": "science machine"
+    },
+    "wood wall": {
+        "components": [
+            [
+                "2",
+                "wood"
+            ],
+            [
+                "1",
+                "rope"
+            ]
+        ],
+        "requires": "science machine"
+    },
+    "stone wall": {
+        "components": [
+            [
+                "2",
+                "cut stone"
+            ]
+        ],
+        "requires": "alchemy engine"
+    },
+    "pig house": {
+        "components": [
+            [
+                "4",
+                "board"
+            ],
+            [
+                "3",
+                "cut stone"
+            ]
+        ],
+        "requires": "alchemy engine"
+    },
+    "rabbit hutch": {
+        "components": [
+            [
+                "4",
+                "board"
+            ],
+            [
+                "10",
+                "carrot"
+            ],
+            [
+                "4",
+                "bunny puff"
+            ]
+        ],
+        "requires": "alchemy engine"
+    },
+    "bird cage": {
+        "components": [
+            [
+                "2",
+                "papyrus"
+            ],
+            [
+                "6",
+                "gold"
+            ],
+            [
+                "2",
+                "seed"
+            ]
+        ],
+        "requires": "alchemy engine"
+    },
+    "cobblestones": {
+        "components": [
+            [
+                "1",
+                "rocky turf"
+            ],
+            [
+                "1",
+                "board"
+            ]
+        ],
+        "requires": "alchemy engine"
+    },
+    "wooden flooring": {
+        "components": [
+            [
+                "1",
+                "board"
+            ]
+        ],
+        "requires": "alchemy engine"
+    },
+    "carpeted flooring": {
+        "components": [
+            [
+                "1",
+                "board"
+            ],
+            [
+                "1",
+                "beefalo wool"
+            ]
+        ],
+        "requires": "alchemy engine"
+    },
+    "checkerboard flooring": {
+        "components": [
+            [
+                "1",
+                "marble"
+            ]
+        ],
+        "requires": "alchemy engine"
+    },
+    "potted fern": {
+        "components": [
+            [
+                "5",
+                "foliage"
+            ],
+            [
+                "1",
+                "broken shell"
+            ]
+        ],
+        "requires": "alchemy engine"
+    },
+    "scaled chest": {
+        "components": [
+            [
+                "1",
+                "scales"
+            ],
+            [
+                "4",
+                "board"
+            ],
+            [
+                "10",
+                "gold"
+            ]
+        ],
+        "requires": "alchemy engine"
+    },
+    "moon rock wall": {
+        "components": [
+            [
+                "12",
+                "moon rock"
+            ]
+        ],
+        "requires": "alchemy engine"
+    },
+    "scaled flooring": {
+        "components": [
+            [
+                "1",
+                "scales"
+            ],
+            [
+                "2",
+                "cut stone"
+            ]
+        ],
+        "requires": "alchemy engine"
+    },
+    "wardrobe": {
+        "components": [
+            [
+                "4",
+                "board"
+            ],
+            [
+                "3",
+                "grass"
+            ]
+        ],
+        "requires": "alchemy engine"
+    },
+    "rope": {
+        "components": [
+            [
+                "3",
+                "grass"
+            ]
+        ],
+        "requires": "science machine"
+    },
+    "board": {
+        "components": [
+            [
+                "4",
+                "wood"
+            ]
+        ],
+        "requires": "science machine"
+    },
+    "cut stone": {
+        "components": [
+            [
+                "3",
+                "stone"
+            ]
+        ],
+        "requires": "science machine"
+    },
+    "papyrus": {
+        "components": [
+            [
+                "4",
+                "reed"
+            ]
+        ],
+        "requires": "science machine"
+    },
+    "thick fur": {
+        "components": [
+            [
+                "90",
+                "fur tuft"
+            ]
+        ],
+        "requires": "alchemy engine"
+    },
+    "purple gem": {
+        "components": [
+            [
+                "1",
+                "red gem"
+            ],
+            [
+                "1",
+                "blue gem"
+            ]
+        ],
+        "requires": "prestihatitator"
+    },
+    "nightmare fuel": {
+        "components": [
+            [
+                "4",
+                "dark petals"
+            ]
+        ],
+        "requires": "prestihatitator"
+    },
+    "prestihatitator": {
+        "components": [
+            [
+                "4",
+                "rabbit"
+            ],
+            [
+                "4",
+                "board"
+            ],
+            [
+                "1",
+                "top hat"
+            ]
+        ],
+        "requires": "science machine"
+    },
+    "shadow manipulator": {
+        "components": [
+            [
+                "3",
+                "living log"
+            ],
+            [
+                "1",
+                "purple gem"
+            ],
+            [
+                "7",
+                "nightmare fuel"
+            ]
+        ],
+        "requires": "prestihatitator"
+    },
+    "meat effigy": {
+        "components": [
+            [
+                "4",
+                "board"
+            ],
+            [
+                "4",
+                "cooked meat"
+            ],
+            [
+                "4",
+                "beard hair"
+            ]
+        ],
+        "requires": "prestihatitator"
+    },
+    "pan flute": {
+        "components": [
+            [
+                "5",
+                "reed"
+            ],
+            [
+                "1",
+                "mandrake"
+            ],
+            [
+                "1",
+                "rope"
+            ]
+        ],
+        "requires": "prestihatitator"
+    },
+    "one-man band": {
+        "components": [
+            [
+                "2",
+                "gold"
+            ],
+            [
+                "4",
+                "nightmare fuel"
+            ],
+            [
+                "2",
+                "pig skin"
+            ]
+        ],
+        "requires": "prestihatitator"
+    },
+    "night light": {
+        "components": [
+            [
+                "8",
+                "gold"
+            ],
+            [
+                "2",
+                "nightmare fuel"
+            ],
+            [
+                "1",
+                "red gem"
+            ]
+        ],
+        "requires": "prestihatitator"
+    },
+    "life giving amulet": {
+        "components": [
+            [
+                "3",
+                "gold"
+            ],
+            [
+                "2",
+                "nightmare fuel"
+            ],
+            [
+                "1",
+                "red gem"
+            ]
+        ],
+        "requires": "prestihatitator"
+    },
+    "chilled amulet": {
+        "components": [
+            [
+                "3",
+                "gold"
+            ],
+            [
+                "1",
+                "blue gem"
+            ]
+        ],
+        "requires": "prestihatitator"
+    },
+    "ice staff": {
+        "components": [
+            [
+                "1",
+                "spear"
+            ],
+            [
+                "1",
+                "blue gem"
+            ]
+        ],
+        "requires": "prestihatitator"
+    },
+    "dark sword": {
+        "components": [
+            [
+                "5",
+                "nightmare fuel"
+            ],
+            [
+                "1",
+                "living log"
+            ]
+        ],
+        "requires": "shadow manipulator"
+    },
+    "night armour": {
+        "components": [
+            [
+                "5",
+                "nightmare fuel"
+            ],
+            [
+                "2",
+                "papyrus"
+            ]
+        ],
+        "requires": "shadow manipulator"
+    },
+    "bat bat": {
+        "components": [
+            [
+                "5",
+                "batilisk wing"
+            ],
+            [
+                "2",
+                "living log"
+            ],
+            [
+                "1",
+                "purple gem"
+            ]
+        ],
+        "requires": "shadow manipulator"
+    },
+    "fire staff": {
+        "components": [
+            [
+                "2",
+                "nightmare fuel"
+            ],
+            [
+                "1",
+                "spear"
+            ],
+            [
+                "1",
+                "red gem"
+            ]
+        ],
+        "requires": "shadow manipulator"
+    },
+    "telelocator staff": {
+        "components": [
+            [
+                "4",
+                "nightmare fuel"
+            ],
+            [
+                "2",
+                "living log"
+            ],
+            [
+                "2",
+                "purple gem"
+            ]
+        ],
+        "requires": "shadow manipulator"
+    },
+    "telelocator focus": {
+        "components": [
+            [
+                "4",
+                "nightmare fuel"
+            ],
+            [
+                "4",
+                "living log"
+            ],
+            [
+                "8",
+                "gold"
+            ]
+        ],
+        "requires": "shadow manipulator"
+    },
+    "nightmare amulet": {
+        "components": [
+            [
+                "6",
+                "gold"
+            ],
+            [
+                "4",
+                "nightmare fuel"
+            ],
+            [
+                "2",
+                "purple gem"
+            ]
+        ],
+        "requires": "shadow manipulator"
+    },
+    "belt of hunger": {
+        "components": [
+            [
+                "6",
+                "slurper pelt"
+            ],
+            [
+                "2",
+                "rope"
+            ],
+            [
+                "2",
+                "nightmare fuel"
+            ]
+        ],
+        "requires": "shadow manipulator"
+    },
+    "garland": {
+        "components": [
+            [
+                "12",
+                "petals"
+            ]
+        ],
+        "requires": ""
+    },
+    "rabbit earmuffs": {
+        "components": [
+            [
+                "2",
+                "rabbit"
+            ],
+            [
+                "1",
+                "twig"
+            ]
+        ],
+        "requires": "science machine"
+    },
+    "straw hat": {
+        "components": [
+            [
+                "12",
+                "grass"
+            ]
+        ],
+        "requires": ""
+    },
+    "beefalo hat": {
+        "components": [
+            [
+                "8",
+                "beefalo wool"
+            ],
+            [
+                "1",
+                "beefalo horn"
+            ]
+        ],
+        "requires": "science machine"
+    },
+    "top hat": {
+        "components": [
+            [
+                "6",
+                "silk"
+            ]
+        ],
+        "requires": "science machine"
+    },
+    "fashion melon": {
+        "components": [
+            [
+                "1",
+                "watermelon"
+            ],
+            [
+                "3",
+                "twig"
+            ]
+        ],
+        "requires": "science machine"
+    },
+    "rain coat": {
+        "components": [
+            [
+                "2",
+                "tentacle spots"
+            ],
+            [
+                "2",
+                "rope"
+            ],
+            [
+                "2",
+                "bone shards"
+            ]
+        ],
+        "requires": "science machine"
+    },
+    "summer frest": {
+        "components": [
+            [
+                "1",
+                "rope"
+            ],
+            [
+                "3",
+                "crimson feather"
+            ],
+            [
+                "2",
+                "pig skin"
+            ]
+        ],
+        "requires": "science machine"
+    },
+    "sewing kit": {
+        "components": [
+            [
+                "1",
+                "wood"
+            ],
+            [
+                "8",
+                "silk"
+            ],
+            [
+                "2",
+                "hound's tooth"
+            ]
+        ],
+        "requires": "alchemy engine"
+    },
+    "beekeeper hat": {
+        "components": [
+            [
+                "8",
+                "silk"
+            ],
+            [
+                "1",
+                "rope"
+            ]
+        ],
+        "requires": "alchemy engine"
+    },
+    "feather hat": {
+        "components": [
+            [
+                "3",
+                "jet feather"
+            ],
+            [
+                "2",
+                "crimson feather"
+            ],
+            [
+                "2",
+                "tentacle spots"
+            ]
+        ],
+        "requires": "alchemy engine"
+    },
+    "bush hat": {
+        "components": [
+            [
+                "1",
+                "straw hat"
+            ],
+            [
+                "1",
+                "rope"
+            ],
+            [
+                "1",
+                "berry bush"
+            ]
+        ],
+        "requires": "alchemy engine"
+    },
+    "winter hat": {
+        "components": [
+            [
+                "4",
+                "beefalo wool"
+            ],
+            [
+                "4",
+                "silk"
+            ]
+        ],
+        "requires": "alchemy engine"
+    },
+    "dapper vest": {
+        "components": [
+            [
+                "8",
+                "hound's tooth"
+            ],
+            [
+                "6",
+                "silk"
+            ]
+        ],
+        "requires": "alchemy engine"
+    },
+    "breezy vest": {
+        "components": [
+            [
+                "1",
+                "koalefant trunk"
+            ],
+            [
+                "8",
+                "silk"
+            ]
+        ],
+        "requires": "alchemy engine"
+    },
+    "puffy vest": {
+        "components": [
+            [
+                "1",
+                "winter koalefant trunk"
+            ],
+            [
+                "8",
+                "silk"
+            ],
+            [
+                "2",
+                "beefalo wool"
+            ]
+        ],
+        "requires": "alchemy engine"
+    },
+    "ice cube": {
+        "components": [
+            [
+                "2",
+                "electrical doodad"
+            ],
+            [
+                "4",
+                "rope"
+            ],
+            [
+                "10",
+                "ice"
+            ]
+        ],
+        "requires": "alchemy engine"
+    },
+    "cat cap": {
+        "components": [
+            [
+                "4",
+                "coon tail"
+            ],
+            [
+                "4",
+                "silk"
+            ]
+        ],
+        "requires": "alchemy engine"
+    },
+    "rain hat": {
+        "components": [
+            [
+                "2",
+                "moleworm"
+            ],
+            [
+                "1",
+                "straw hat"
+            ],
+            [
+                "1",
+                "bone shards"
+            ]
+        ],
+        "requires": "alchemy engine"
+    },
+    "hibearnation vest": {
+        "components": [
+            [
+                "1",
+                "thick fur"
+            ],
+            [
+                "1",
+                "dapper vest"
+            ],
+            [
+                "2",
+                "rope"
+            ]
+        ],
+        "requires": "alchemy engine"
+    },
+    "eyebrella": {
+        "components": [
+            [
+                "1",
+                "deerclops eyeball"
+            ],
+            [
+                "15",
+                "twig"
+            ],
+            [
+                "4",
+                "bone shards"
+            ]
+        ],
+        "requires": "alchemy engine"
+    },
+    "floral shirt": {
+        "components": [
+            [
+                "3",
+                "papyrus"
+            ],
+            [
+                "3",
+                "silk"
+            ],
+            [
+                "5",
+                "cactus flower"
+            ]
+        ],
+        "requires": "alchemy engine"
+    },
+    "walking cane": {
+        "components": [
+            [
+                "2",
+                "gold"
+            ],
+            [
+                "1",
+                "walrus tusk"
+            ],
+            [
+                "4",
+                "twig"
+            ]
+        ],
+        "requires": "alchemy engine"
+    }
+}

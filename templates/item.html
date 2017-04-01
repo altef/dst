@@ -1,0 +1,10 @@
+<div class="item <%= window.slug(requires) %> <%= category %>">
+<i title="<%= category %>"/>
+<dl>
+<dt><%= name %></dt>
+<dd class="requires"><%= requires %></dd>
+<% _.each(components, function(c) { %> 
+<dd class="component"><%= c[0] %> <small>x</small> <%= c[1] %></dd>
+<% }) %>
+</dl>
+</div>
