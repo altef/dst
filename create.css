@@ -48,6 +48,21 @@
 	padding-left: 0px;
 }
 
+#create div.item a.out {
+	background-image: url(i/out.png);
+	background-repeat: no-repeat;
+	display: block;
+	float: right;
+	height: 18px;
+	width: 18px;
+	opacity: 0.01;
+	transition: opacity 100ms;
+}
+
+#create div.item:hover a.out {
+	opacity: 1;
+}
+
 #create div.item.science-machine {
 	background-color: #98aa82;
 }
@@ -68,6 +83,12 @@
 	font-style: italic;
 	font-size: 8pt;
 	margin-bottom: 5px;
+}
+
+#create dd.notes {
+	font-style: italic;
+	font-size: 8pt;
+	margin-top: 5px;
 }
 
 #create dt {
@@ -113,4 +134,16 @@
 
 #create .Survival i {
 	background-image: url(i/cats/survival.png);
+}
+
+#create .Critters i {
+	background-image: url(i/cats/critters.png);
+}
+
+#create .Cartography i {
+	background-image: url(i/cats/cartography.png);
+}
+
+#create .Sculpt i {
+	background-image: url(i/cats/sculpt.png);
 }

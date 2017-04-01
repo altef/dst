@@ -58,8 +58,13 @@ define(["backbone", "jquery", "underscore"], function(backbone, $, _) {
 				if (Object.keys(fcats[cat]).length === 0) continue;
 				for(var item_name in fcats[cat]) {
 					var item = _.extend({name: item_name, category: cat}, fcats[cat][item_name]);
-					this.$el.find('.results').append(this.item_template(item));
-					
+					if (!item.hasOwnProperty('notes'))
+						item.notes = '';
+					try {
+						this.$el.find('.results').append(this.item_template(item));
+					} catch (e) {
+						console.log("exception templating", item);
+					}
 				}
 			}
 		},

@@ -108,7 +108,7 @@ define(["backbone", "jquery", "underscore", "textcomplete"], function(backbone, 
 			for(var t = 0; t < i.components.length; t++) {
 				var c = i.components[t];
 				if (recurse && window.data.items.hasOwnProperty(c[1])) {
-					var d = this.getComponents(c[1]);
+					var d = this.getComponents(c[1], recurse);
 					for(var r in d.requires)
 						o.requires[r] = 1;
 					for(var comp in d.components) {

@@ -1,10 +1,12 @@
 <div class="item <%= window.slug(requires) %> <%= category %>">
 <i title="<%= category %>"/>
+<a class="out" href="http://www.google.com/search?q=<% print(encodeURIComponent("don't starve together " + name)) %>&btnI"></a>
 <dl>
 <dt><%= name %></dt>
 <dd class="requires"><%= requires %></dd>
 <% _.each(components, function(c) { %> 
 <dd class="component"><%= c[0] %> <small>x</small> <%= c[1] %></dd>
 <% }) %>
+<dd class="notes"><%= notes %></dd>
 </dl>
 </div>

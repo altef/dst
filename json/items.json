@@ -2098,5 +2098,574 @@
             ]
         ],
         "requires": "alchemy engine"
-    }
+    },
+	"feather pencil": {
+		"components": [
+			[
+				"1",
+				"charcoal"
+			],
+			[
+				"1",
+				"jet feather"
+			],
+			[
+				"1",
+				"twig"
+			]
+		],
+		"requires": "science machine"
+	},
+	"mushlight": {
+		"components": [
+			[
+				"1",
+				"shroom skin"
+			],
+			[
+				"1",
+				"bucket-o-poop"
+			]
+		],
+		"requires": "blueprint"
+	},
+	"glowcap": {
+		"components": [
+			[
+				"1",
+				"shroom skin"
+			],
+			[
+				"1",
+				"bucket-o-poop"
+			]
+		],
+		"requires": "blueprint"
+	},
+	"bundling wrap": {
+		"components": [
+			[
+				"1",
+				"wax paper"
+			],
+			[
+				"1",
+				"rope"
+			]
+		],
+		"requires": "blueprint"
+	},
+	"mushroom planter": {
+		"components": [
+			[
+				"8",
+				"rot"
+			],
+			[
+				"5",
+				"manure"
+			],
+            [
+                "2",
+                "living log"
+            ]
+		],
+		"requires": "science machine"
+	},
+	"cartographer's desk": {
+		"components": [
+			[
+				"1",
+				"compass"
+			],
+			[
+				"4",
+				"board"
+			]
+		],
+		"requires": "science machine"
+	},
+	"potter's wheel": {
+		"components": [
+			[
+				"2",
+				"cut stone"
+			],
+			[
+				"2",
+				"board"
+			],
+			[
+				"4",
+				"twig"
+			]
+		],
+		"requires": "science machine"
+	},
+	"electric dart": {
+		"components": [
+			[
+				"2",
+				"reed"
+			],
+			[
+				"1",
+				"gold"
+			],
+			[
+				"1",
+				"saffron feather"
+			]
+		],
+		"requires": "science machine"
+	},
+	"mini sign": {
+		"components": [
+			[
+				"1",
+				"board"
+			]
+		],
+		"requires": "science machine",
+		"notes": "crafts four.  Place an item near it, and use a feather pencil to draw the item on it."
+	},
+	"end table": {
+		"components": [
+			[
+				"2",
+				"marble"
+			],
+			[
+				"2",
+				"board"
+			],
+			[
+				"2",
+				"carpeted flooring"
+			]
+		],
+		"requires": "blueprint"
+	},
+	"scaled furnace": {
+		"components": [
+			[
+				"2",
+				"red gem"
+			],
+			[
+				"10",
+				"charcoal"
+			],
+			[
+				"1",
+				"scales"
+			]
+		],
+		"requires": "blueprint"
+	},
+	"friendly scarecrow": {
+		"components": [
+			[
+				"1",
+				"pumpkin"
+			],
+			[
+				"6",
+				"grass"
+			],
+			[
+				"3",
+				"board"
+			]
+		],
+		"requires": "science machine"
+	},
+	"wood fence": {
+		"components": [
+			[
+				"3",
+				"twig"
+			],
+			[
+				"1",
+				"rope"
+			]
+		],
+		"requires": "science machine"
+	},
+	"wood gate": {
+		"components": [
+			[
+				"2",
+				"board"
+			],
+			[
+				"1",
+				"rope"
+			]
+		],
+		"requires": "alchemy engine"
+	},
+	"potted succulent": {
+		"components": [
+			[
+				"5",
+				"succulent"
+			],
+			[
+				"1",
+				"cut stone"
+			]
+		],
+		"requires": "blueprint"
+	},
+	"cratered moonrock": {
+		"components": [
+			[
+				"3",
+				"moon rock"
+			]
+		],
+		"requires": "alchemy engine",
+		"notes": "holds a gem to make a moonlet"
+	},
+	"marble bean": {
+		"components": [
+			[
+				"1",
+				"marble"
+			]
+		],
+		"requires": "alchemy engine",
+		"notes": "planting it grows a marble shrub"
+	},
+	"beeswax": {
+		"components": [
+			[
+				"1",
+				"honeycomb"
+			]
+		],
+		"requires": "science machine"
+	},
+	"wax paper": {
+		"components": [
+			[
+				"1",
+				"beeswax"
+			],
+			[
+				"1",
+				"papyrus"
+			]
+		],
+		"requires": "science machine"
+	},
+	"ocuvigil": {
+		"components": [
+			[
+				"1",
+				"purple moonlens"
+			],
+			[
+				"1",
+				"compass"
+			],
+			[
+				"2",
+				"board"
+			]
+		],
+		"requires": "prestihatitator"
+	},
+	"moon dial": {
+		"components": [
+			[
+				"1",
+				"blue moonlens"
+			],
+			[
+				"2",
+				"moon rock"
+			],
+			[
+				"2",
+				"ice"
+			]
+		],
+		"requires": "prestihatitator"
+	},
+	"blue funcap": {
+		"components": [
+			[
+				"6",
+				"blue cap"
+			]
+		],
+		"requires": "blueprint"
+	},
+	"green funcap": {
+		"components": [
+			[
+				"6",
+				"green cap"
+			]
+		],
+		"requires": "blueprint"
+	},
+	"red funcap": {
+		"components": [
+			[
+				"6",
+				"red cap"
+			]
+		],
+		"requires": "blueprint"
+	},
+	"fashion goggles": {
+		"components": [
+			[
+				"1",
+				"gold"
+			],
+			[
+				"1",
+				"pig skin"
+			]
+		],
+		"requires": "blueprint"
+	},
+	"desert goggles": {
+		"components": [
+			[
+				"1",
+				"fashion goggles"
+			],
+			[
+				"1",
+				"pig skin"
+			]
+		],
+		"requires": "blueprint"
+	},
+	"map scroll": {
+		"components": [
+			[
+				"1",
+				"feather pencil"
+			],
+			[
+				"1",
+				"papyrus"
+			]
+		],
+		"requires": "records your current map for gifting"
+	},
+	"kittykit": {
+		"components": [
+			[
+				"1",
+				"cat tail"
+			],
+			[
+				"1",
+				"fishsticks"
+			]
+		],
+		"requires": "rock den",
+		"notes": "baby catcoon. recipe hint: 1 fish, 1 twig"
+	},
+	"vargling": {
+		"components": [
+			[
+				"4",
+				"hound's tooth"
+			],
+			[
+				"1",
+				"monster lasagna"
+			]
+		],
+		"requires": "rock den",
+		"notes": "baby varg. recipe hint: 2 monster meat, no twigs"
+	},
+	"ewelet": {
+		"components": [
+			[
+				"1",
+				"steel wool"
+			],
+			[
+				"1",
+				"guacamole"
+			]
+		],
+		"requires": "rock den",
+		"notes": "baby ewecus. recipe hint: 1 moleworm, 1 uncooked cactus flesh, 2 twigs"
+	},
+	"broodling": {
+		"components": [
+			[
+				"1",
+				"chilled lavae"
+			],
+			[
+				"1",
+				"spicy chili"
+			]
+		],
+		"requires": "rock den",
+		"notes": "baby dragonfly. recipe hint: 1 monster meat, 1 morsel, 2 cactus flesh"
+	},
+	"glomglom": {
+		"components": [
+			[
+				"1",
+				"glommer's goop"
+			],
+			[
+				"1",
+				"taffy"
+			]
+		],
+		"requires": "rock den",
+		"notes": "baby glommer. recipe hint: 3 honey, no meat"
+	},
+	"giblet": {
+		"components": [
+			[
+				"1",
+				"feather hat"
+			],
+			[
+				"1",
+				"trail mix"
+			]
+		],
+		"requires": "rock den",
+		"notes": "baby gobbler. recipe hint: 1 roasted birch nut, 1 berry, 2 other fruit"
+	},
+	"bubble pipe carving": {
+		"components": [
+			[
+				"1",
+				"marble"
+			],
+			[
+				"2",
+				"rock"
+			]
+		],
+		"requires": "potter's wheel",
+		"notes": "Can substitute cut stone for marble for a darker sculpture."
+	},
+	"carved hornucopia": {
+		"components": [
+			[
+				"1",
+				"marble"
+			],
+			[
+				"2",
+				"rock"
+			]
+		],
+		"requires": "potter's wheel",
+		"notes": "Can substitute cut stone for marble for a darker sculpture."
+	},
+	"rook figure": {
+		"components": [
+			[
+				"1",
+				"marble"
+			],
+			[
+				"2",
+				"rock"
+			]
+		],
+		"requires": "potter's wheel, sketch",
+		"notes": "Can substitute cut stone for marble for a darker sculpture."
+	},
+	"knight figure": {
+		"components": [
+			[
+				"1",
+				"marble"
+			],
+			[
+				"2",
+				"rock"
+			]
+		],
+		"requires": "potter's wheel, sketch",
+		"notes": "Can substitute cut stone for marble for a darker sculpture."
+	},
+	"bishop figure": {
+		"components": [
+			[
+				"1",
+				"marble"
+			],
+			[
+				"2",
+				"rock"
+			]
+		],
+		"requires": "potter's wheel, sketch",
+		"notes": "Can substitute cut stone for marble for a darker sculpture."
+	},
+	"kingly figure": {
+		"components": [
+			[
+				"1",
+				"marble"
+			],
+			[
+				"2",
+				"rock"
+			]
+		],
+		"requires": "potter's wheel, sketch",
+		"notes": "Can substitute cut stone for marble for a darker sculpture."
+	},
+	"queenly figure": {
+		"components": [
+			[
+				"1",
+				"marble"
+			],
+			[
+				"2",
+				"rock"
+			]
+		],
+		"requires": "potter's wheel, sketch",
+		"notes": "Can substitute cut stone for marble for a darker sculpture."
+	},
+	"pawn figure": {
+		"components": [
+			[
+				"1",
+				"marble"
+			],
+			[
+				"2",
+				"rock"
+			]
+		],
+		"requires": "potter's wheel, sketch",
+		"notes": "Can substitute cut stone for marble for a darker sculpture."
+	}
+
+
+
+
+
+
+
+
+
+
+
 }
