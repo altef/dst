@@ -1,0 +1,37 @@
+<div class="item <%= window.slug(friendlyfoodtype) %>">
+	<div class="inner" style="background-image: url(i/icons/<%= name %>.png);">
+		<i title="type: <%= friendlyfoodtype %>"/>
+		<a class="out" href="http://www.google.com/search?q=<%= encodeURIComponent("don't starve together " + friendlyname) %>&btnI"></a>
+		<h3 title="<%= name %>"><%= friendlyname %></h3>
+		<div class="stats">
+			<div class="health" title="Health">
+				<img src="i/icons/health_meter.png" />
+				<%= health %>
+			</div>
+			<div class="hunger" title="Hunger">
+				<img src="i/icons/hunger_meter.png" />
+				<%= hunger %>
+			</div>
+			<div class="sanity" title="Sanity">
+				<img src="i/icons/sanity_meter.png" />
+				<%= sanity %>
+			</div>
+			<div class="perish"  title="Perishtime">
+				<img src="i/icons/spoiled_food.png" />
+				<%= perishtime %>
+			</div>
+			<div class="cook"  title="Cooktime">
+				<img src="i/icons/cookpot.png" />
+				<%= cooktime %>
+			</div>
+		</div>
+		<dl>
+			<%= amountsummary %>
+			<%= tempsummary %>
+			<%= tagsummary %>
+			<dd class="test" title="test logic"><%= friendlytest %></dd>
+			<dd class="priority" title="priority: <%= priority %>">(with a priority of <%= priority %>)</dd>
+		</dl>
+		
+	</div>
+</div>

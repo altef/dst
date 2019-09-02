@@ -1,6 +1,4 @@
-#gather > * {
-	float: left;
-}
+
 #gather label {
 	display: block;
 	margin-bottom: 20px;
@@ -13,6 +11,10 @@
 	border-radius: 5px;
 	line-height: 14pt;
 	min-height: 350px;
+	width: 100%;
+	display: block;
+	min-height: 120px;
+	box-sizing: border-box;
 }
 
 #gather {
@@ -21,6 +23,7 @@
 }
 
 #gather .arrows {
+	display: none;
 	width: 25px;
 	min-height: 370px;
 	margin-top: 50px;
@@ -33,15 +36,12 @@
 
 #gather .results {
 	width: 150px;
-	padding: 25px;
+	padding: 0px;
 	border: none;
-	background-color: #c7cad2;
-	border-radius: 5px;
-	line-height: 14pt;
-	min-height: 350px;
-	margin-top: 39px;
-	margin-left: 15px;
+	margin-top: 10px;
+	margin-left: 0px;
 	margin-bottom: 40px;
+	width: auto;
 }
 
 #gather .instructions {
@@ -62,6 +62,7 @@
 	margin-left: 215px;
 	margin-top: -1px;
 	width: 520px;
+	width: calc(100% - 275px);
 	height: 23px;
 	overflow: hidden;
 }
@@ -81,7 +82,17 @@
 	margin: 0px;
 	padding: 0px;
 }
-
+#gather .results li {
+	margin-bottom: 10px;
+	display: inline-block;
+	margin-right: 10px;
+	padding: 10px;
+	padding-left: 45px;
+	padding-top: 15px;
+	border-radius: 3px;
+	min-width: 150px;
+	background-color: #c7cad2;
+}
 
 
 .textcomplete-dropdown {
@@ -118,6 +129,16 @@
 	cursor: pointer;
 }
 
+#gather i {
+	background-repeat: no-repeat;
+	background-size: contain;
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	margin-left: -40px;
+	position: absolute;
+	margin-top: -12px;
+}
 
 
 @media all and (max-width: 877px) {
@@ -137,7 +158,7 @@
 		margin-top: 0px;
 		clear: both;
 		float: none;
-		width: 418px;
+		width: 100%;
 		margin-bottom: 15px;
 	}
 }

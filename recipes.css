@@ -1,3 +1,177 @@
-#recipes {
-	padding: 20px 30px;
+#recipes input {
+	display: block;
+	border-radius: 5px;
+	border: none;
+	background-color: #fff;
+	padding: 15px 20px;
+	margin: 10px 30px;
+	width: calc(100% - 100px);
 }
+
+#recipes .item i {
+	width: 28px;
+	height: 28px;
+	display: block;
+	background-size: contain;
+	position: absolute;
+	background-repeat: no-repeat;
+	margin-left: 208px;
+	margin-top: 208px;
+}
+
+#recipes .results {
+	margin-left: 20px;
+	margin-right: 15px;
+}
+
+#recipes div.item {
+	width: 240px;
+	float: left;
+	margin: 10px;
+	margin-bottom: 30px;
+	background-color: #cccccc;
+	border-radius: 3px;
+	padding: 5px;
+	height: 240px;
+	overflow: hidden;
+	font-size: 10.5pt;
+	background-image: url(i/item-bg2.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+#recipes dl {
+	margin: 0px;
+	padding: 10px;
+}
+
+#recipes dd {
+	margin-left: 0px;
+	padding-left: 0px;
+	text-align: center;
+}
+
+#recipes div.item a.out {
+	background-image: url(i/out.png);
+	background-repeat: no-repeat;
+	display: block;
+	float: right;
+	height: 18px;
+	width: 18px;
+	margin-right: 3px;
+	margin-top: 3px;
+	opacity: 0.01;
+	transition: opacity 100ms;
+}
+
+#recipes div.item:hover a.out {
+	opacity: 1;
+}
+
+#recipes div.item.meat {
+	background-color: #dccbcb;
+}
+
+#recipes div.item.veggie {
+	background-color: #bfd4bc;
+}
+#recipes div.item.goodies {
+	background-color: #e6e2d0;
+}
+
+#recipes dd.priority {
+	font-style: italic;
+	font-size: 9pt;
+	margin-top: 10px;
+	text-transform: lowercase;
+}
+
+#recipes dd.test {
+	font-size: 9pt;
+	padding-top: 8px;
+}
+
+#recipes dd.test strong {
+	white-space: nowrap;
+}
+
+#recipes h3 {
+	font-weight: bold;
+	text-transform: capitalize;
+	padding-left: 10px;
+	margin-top: 5px;
+	text-align: center;
+	font-size: .98em;
+	margin-bottom: 4px;
+}
+
+
+#recipes .stats {
+	margin-top: 5px;
+	display: flex;
+	justify-content: center;
+	font-weight: bold;
+}
+
+#recipes .stats img {
+	width: 32px;
+	height: 32px;
+	display: block;
+}
+#recipes .stats > div {
+	text-align: center;
+}
+
+#recipes .stats .perish, #recipes .stats .cook {
+	font-weight: normal;
+}
+
+#recipes .meat i {
+	background-image: url(i/icons/drumstick_cooked.png);
+}
+#recipes .veggie i {
+	background-image: url(i/icons/carrot_cooked.png);
+}
+#recipes .goodies i {
+	background-image: url(i/icons/taffy.png);
+}
+
+
+#recipes .item > .inner {
+	height: 270px;
+	width: 240px;
+	position: absolute;
+	background-repeat: no-repeat;
+	background-position: bottom 5px center;
+}
+
+#recipes .item .ingredient {
+	background-repeat: no-repeat;
+	width: 30px;
+	height:30px;
+	display: inline-block;
+	background-size: contain;
+	margin-top: -7px;
+	margin-left: -36px;
+	position: absolute;
+}
+
+
+@media all and (max-width: 875px) {
+	#recipes .results {
+		margin-left: 5px;
+		margin-right: 0px;
+	}
+	
+	
+	#recipes div.item {
+		margin: 5px;
+		
+		margin-bottom: 30px;
+		padding: 5px;
+		font-size: 10.5pt;
+	}
+
+}
+
+

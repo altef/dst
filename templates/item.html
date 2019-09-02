@@ -1,12 +1,43 @@
-<div class="item <%= window.slug(requires) %> <%= category %>">
-<i title="<%= category %>"/>
-<a class="out" href="http://www.google.com/search?q=<% print(encodeURIComponent("don't starve together " + name)) %>&btnI"></a>
-<dl>
-<dt><%= name %></dt>
-<dd class="requires"><%= requires %></dd>
-<% _.each(components, function(c) { %> 
-<dd class="component"><%= c[0] %> <small>x</small> <%= c[1] %></dd>
-<% }) %>
-<dd class="notes"><%= notes %></dd>
-</dl>
+<div class="item <%= window.slug(friendlytech) %> <%= tab %>">
+	<%
+		img = name;
+		if (img.includes('chesspiece'))
+			img = img.replace('_builder', '');
+		if (img == 'halloween_experiment_root')
+			img = 'livingtree_root_hallowed_nights';
+		var m = /halloween_experiment_(.*)/.exec(img);
+		if (m) {
+			switch(m[1]) {
+				case 'root':
+					img = 'livingtree_root_hallowed_nights';
+					break;
+				case 'volatile':
+					img = 'halloweenpotion_embers';
+					break;
+				case 'sparks':
+					break;
+				default:
+					img = 'halloweenpotion_' + m[1] + '_large';
+			}
+		}
+	%>
+	<div class="inner" style="background-image: url(i/icons/<%= img %>.png);">
+		<i title="tab: <%= tab %>"/>
+		<a class="out" href="http://www.google.com/search?q=<%= encodeURIComponent("don't starve together " + friendlyname) %>&btnI"></a>
+		<dl>
+			<dt title="<%= name %>"><%= friendlyname %></dt>
+			<dd class="requires" title="tech: <%= tech %>"><%= friendlytech %></dd>
+			<% 
+			for(var prop in ingredients) 
+				ingredients[prop]["key"] = prop;
+			var l = Object.values(ingredients).sort(function(a,b) { return a['name'] > b['name'] ? 1 : -1; });
+			for(var i=0; i < l.length; i++) {
+				var ing = l[i];
+			%> 
+				<dd class="component"><div class="ingredient" style="background-image: url(i/icons/<%= ing["key"] %>.png);"></div><%= ing["amount"] %> <small>x</small> <%= ing["name"].replace(/^[^\.]+\./, "").replace('SCULPTING', 'MATERIAL') %></dd>
+			<% } %>
+			<dd class="notes"><%= description %></dd>
+		</dl>
+		
+	</div>
 </div>

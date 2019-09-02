@@ -75,10 +75,138 @@ body.loading {
 	display: none;
 }
 
+
+a.help {
+	display: block;
+	width: 50px;
+	height: 50px;
+	background-image: url(i/help.png);
+	background-size: 32px 32px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-color: #fff;
+	border-radius: 40px;
+	position: absolute;
+	margin-top: -45px;
+	right: 160px;
+	box-shadow:3px 3px 5px rgba(0,0,0, 0);
+}
+
+
+.helpoverlay {
+	position:fixed;
+	width: 100vw;
+	height: 100vh;
+	top: 0;
+	left: 0;
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAI0lEQVQIW2NkwATGjGhixkD+WWRBsABIEUwQLgATRBEACQIAr8MEOZtA/yIAAAAASUVORK5CYII=);
+	background-color: rgba(255,255,255,.8);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 5;
+	display: none;
+}
+
+.helpoverlay.open {
+	display: flex;
+}
+
+.helpmodal {
+	max-width: 700px;
+	min-width: 150px;
+	background-color: #e9e8e6;
+	border-radius: 3px;
+	overflow: hidden;
+	box-shadow:3px 3px 5px rgba(0,0,0, .4);
+	font-size: 1.1em;
+	line-height: 1.5em;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.helpmodal .title {
+	background-color: #555555;
+	color: #e9e8e6;
+	padding: 3px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.helpmodal .title a {
+	text-decoration: none;
+	font-weight: bold;
+	color: #fff;
+	margin-right: 10px;
+}
+
+.helpmodal .content {
+	padding: 20px;
+	padding-top: 10px;
+	overflow-y: auto;
+	max-height: 90vh;
+}
+
+.helpmodal .content li {
+	margin-bottom: 8px;
+}
+
+
+div.help {
+	display: none;
+}
+
+.helpmodal .content a {
+	color: #7123bb;
+	text-decoration: none;
+}
+
+.helpmodal .content a:hover {
+	color: #C68E39;
+	text-decoration: none;
+}
+
+
+
+.poweredby {
+	position: absolute;
+	right: 9px;
+	top: 9px;
+}
+
+.poweredby a {
+	height: 25px;
+	width: 40px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	display: inline-block;
+	opacity: .7;
+	transition: opacity ease .5s;
+}
+
+.poweredby a:hover {
+	opacity: 1;
+}
+
+.poweredby a.ae {
+	background-image: url(i/ae.png);
+}
+.poweredby a.logipar {
+	background-image: url(i/logipar.png);
+}
+
 @media all and (max-width: 875px) {
 	header img {
 		display: none;
 	}
+	
+	a.help {
+		right: 40px;
+	}
+	.poweredby {
+		right: 5px;
+	}
+
 }
 
 @media all and (max-width: 705px) {
@@ -103,5 +231,11 @@ body.loading {
 	
 	header nav a {
 		margin: 0px 10px;
+	}
+	
+	a.help {
+		top: 54px;
+		left: 20px;
+		background-color: #e9e8e6;
 	}
 }

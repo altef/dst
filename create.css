@@ -15,8 +15,8 @@
 	background-size: contain;
 	position: absolute;
 	background-repeat: no-repeat;
-	margin-left: 120px;
-	margin-top: 119px;
+	margin-left: 160px;
+	margin-top: 159px;
 }
 
 #create .results {
@@ -25,17 +25,19 @@
 }
 
 #create div.item {
-	width: 150px;
+	width: 190px;
 	float: left;
 	margin: 10px;
+	margin-bottom: 30px;
 	background-color: #cccccc;
 	border-radius: 3px;
 	padding: 5px;
-	height: 150px;
+	height: 190px;
 	overflow: hidden;
 	font-size: 10.5pt;
 	background-image: url(i/item-bg2.png);
 	background-size: contain;
+	background-repeat: no-repeat;
 }
 
 #create dl {
@@ -76,19 +78,79 @@
 }
 
 #create div.item.shadow-manipulator {
-	background-color: #a7abc0;		
+	background-color: #6a6a6a;
+}
+
+#create div.item.maxwell {
+	background-color: #b37690;
+}
+#create div.item.rock-den {
+	background-color: #e4dbbc;
+}
+#create div.item.gobbler-shrine, #create div.item.year-of-the-gobbler {
+	background-color: #b19668;
+}
+#create div.item.varg-shrine, #create div.item.year-of-the-varg {
+	background-color: #a07951;
+}
+
+#create div.item.winters-feast {
+	background-color: #92d8ff;
+}
+#create div.item.hallowed-nights {
+	background-color: #ffc57f;
+}
+
+#create div.item.blueprint {
+	background-color: #8887ad;
+}
+#create div.item.broken-ancient-pseudoscience-station {
+	background-color: #a57942;
+}
+#create div.item.ancient-pseudoscience-station {
+	background-color: #886132;
+}
+#create div.item.potters-wheel {
+	background-color: #fff3ef;
+}
+
+#create div.item.cartographers-desk {
+	background-color: #fde6d0;
+}
+#create div.item.wickerbottom {
+	background-color: #ccbe68;
+}
+
+#create div.item.mad-scientist-lab{
+	background-color: #e4fdda;
+}
+#create div.item.pig-shrine{
+	background-color: #f5e1e4;
+}
+#create div.item.portable-seasoning-station {
+	background-color: #e2d8c9;
+}
+#create div.item.celestial-altar {
+	background-color: #e7fbfd;
+}
+#create div.item.celestial-orb {
+	background-color: #e7fbfd;
+}
+#create div.item.think-tank {
+	background-color: #afa18d;
 }
 
 #create dd.requires {
 	font-style: italic;
 	font-size: 8pt;
-	margin-bottom: 5px;
+	margin-bottom: 10px;
+	text-transform: lowercase;
 }
 
 #create dd.notes {
 	font-style: italic;
 	font-size: 8pt;
-	margin-top: 5px;
+	padding-top: 8px;
 }
 
 #create dt {
@@ -124,8 +186,11 @@
 	background-image: url(i/cats/refine.png);
 }
 
-#create .science i {
+#create .Science i {
 	background-image: url(i/cats/science.png);
+}
+#create .Mad.Science i {
+	background-image: url(i/cats/madscience.png);
 }
 
 #create .Structures i {
@@ -144,6 +209,93 @@
 	background-image: url(i/cats/cartography.png);
 }
 
-#create .Sculpt i {
+#create .Sculptures i {
 	background-image: url(i/cats/sculpt.png);
 }
+
+#create .Ancient i {
+	background-image: url(i/cats/ancient.png);
+}
+
+#create .CUSTOM_BOOKS i {
+	background-image: url(i/cats/books.png);
+}
+
+#create .CUSTOM_SHADOW i {
+	background-image: url(i/cats/shadow.png);
+}
+
+
+#create .Offerings i {
+	background-image: url(i/cats/offerings.png);
+}
+
+#create .Seasonings i {
+	background-image: url(i/cats/seasonings.png);
+}
+
+#create .Celestial i {
+	background-image: url(i/cats/celestial.png);
+}
+
+#create .Seafaring i {
+	background-image: url(i/cats/seafaring.png);
+}
+
+#create .CUSTOM_NATURE i {
+	background-image: url(i/cats/greenthumb.png);
+}
+
+#create .CUSTOM_ENGINEERING i {
+	background-image: url(i/cats/engineering.png);
+}
+
+
+#create .item > .inner {
+	height: 220px;
+	width: 190px;
+	position: absolute;
+	background-repeat: no-repeat;
+	background-position: bottom 5px center;
+}
+
+#create .item .ingredient {
+	background-repeat: no-repeat;
+	width: 30px;
+	height:30px;
+	display: inline-block;
+	background-size: contain;
+	margin-top: -7px;
+	margin-left: -36px;
+	position: absolute;
+}
+
+#create .item dd.component {
+	margin-bottom: 8px;
+	padding-left: 36px;
+}
+
+@media all and (max-width: 875px) {
+	#create .results {
+		margin-left: 5px;
+		margin-right: 0px;
+	}
+	
+	
+	#create div.item {
+		width: 180px;
+		margin: 5px;
+		
+		margin-bottom: 30px;
+		padding: 5px;
+		height: 180px;
+		font-size: 10.5pt;
+	}
+	#create .item > .inner {
+		height: 210px;
+		width: 180px;
+	}
+
+}
+
+

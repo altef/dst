@@ -1,3 +1,48 @@
 <link rel="stylesheet" href="create.css" />
-<input type="text" data-focus="1" name="filter" placeholder="charcoal, axe, light" />
+<input type="text" data-focus="1" name="filter" placeholder="uses charcoal or axe or tab is light" />
+<div class="help">
+	<p>Type into the filter box to filter the results.  You can just type stuff, but there are also some neat things you can try:</p>
+	<ul>
+		<li>It's not case sensitive.</li>
+		<li><strong>Name is science machine</strong> will return the object with the name <em>science machine</em>.  
+			The format "[field] is [value]" can be used with any field.  "Tab is light", for example, will return all items under the light tab. 
+			<strong>Equals</strong> is an alias for <strong>is</strong>, so you can use either according to preference.
+		</li>
+		<li><strong>Name contains pig</strong> will return any objects that have <em>pig</em> in their names. 
+			The format "[field] contains [value]" can be used with any field.  "Tech contains science", for example, will return all items under the science tech tree 
+			(science machine, alchemy engine).
+		</li>
+		<li><strong>Uses twigs</strong> will return any objects that require twigs to build them.  This matches in the same was as <em>contains</em>, 
+		so "uses turf" will return items that require <em>any</em> turf to build them.
+			It also checks the tech required to build it.  "Uses science machine" will return all items you need the science machine to build.
+			<strong>Requires</strong> is an alias for <strong>uses</strong>, so you can use either according to preference.
+		</li>
+		<li><strong>Uses 3 twigs</strong> will return any objects that require exactly 3 twigs to build.
+			The format is "uses [number] [ingredient]".
+		</li>
+		<li><strong>Uses greater than 3 twigs</strong> will return any objects that require more than 3 twigs to build.
+			The format is "uses greater than [number] [ingredient]". 
+			<strong>More</strong> is an alias for <strong>greater</strong>, so you can use either according to preference.
+		</li>
+		<li><strong>Uses less than 3 twigs</strong> will return any objects that require less than 3 twigs to build.  <em>However</em> it will only return items that do require twigs.
+			If you want items that don't require twigs as well, you can use "Uses less than 3 twigs and not uses twigs". 
+			The format is "uses less than [number] [ingredient]". 
+			<strong>Fewer</strong> is an alias for <strong>less</strong>, so you can use either according to preference.
+		</li>
+		<li><strong>shroom</strong> will return all objects with "shroom" contained in any field, including ingredients.
+		<li>This tool uses <a href="https://github.com/altef/logipar">Logipar</a>, so you can combine any of the above using <strong>AND</strong>, <strong>OR</strong>, 
+		<strong>NOT</strong>, <strong>XOR</strong>, and <strong>(</strong> parentheses <strong>)</strong> to your heart's content.
+	</ul>
+	<p>The field list is:</p>
+	<ul>
+		<li><Strong>Name</strong> - the object's name in the source files.</li>
+		<li><Strong>Friendlyname</strong> - the object's name in-game.</li>
+		<li><strong>Tab</strong> - the tab the object is under.</li>
+		<li><strong>Tech</strong> - the part of the tech tree required, as per the source files.</li>
+		<li><strong>Friendlytech</strong> - the part of the tech tree required, as per in-game.</li>
+		<li><strong>Description</strong> - the in-game description string.</li>
+	</ul>
+	
+	<p>A note about "friendly" fields.  If you search a field that has a corresponding "friendly" field, both will be searched automatically.  So searching "name contains cat" will search both the <em>name</em> field, and the <em>friendlyname</em> field.</p>
+</div>
 <div class="results"></div>

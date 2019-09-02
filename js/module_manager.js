@@ -19,6 +19,13 @@ define(["jquery"], function($) {
 				} else {
 					console.log("Invalid key: " + key);
 				}
+			},
+			current: function() {
+				var classes = $('nav a.active')[0].className.split(/\s+/);
+				for(var i=0; i < classes.length; i++) {
+					if (map.hasOwnProperty(classes[i]))
+						return map[classes[i]];
+				}
 			}
 		}
 		return o;

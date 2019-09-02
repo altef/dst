@@ -1,19 +1,86 @@
-requirejs(["backbone", "views/create", "views/gather", "views/recipes", "module_manager"], function(backbone, CreateView, GatherView, RecipesView, ModuleManager) {
+requirejs(["backbone", "views/create", "views/gather", "views/recipes", "module_manager", "Logipar"], function(backbone, CreateView, GatherView, RecipesView, ModuleManager, logipar) {
 	var loader = 0;
 	window.data = {};
 	
-	$.getJSON( "json/items.json", function( data ) {
-		window.data.items = data;
+	
+	
+	function renametech(name) {
+		map = {
+			'NONE': '',
+			'SCIENCE_ONE': 'science machine',
+			'SCIENCE_TWO': 'alchemy engine',
+			'LOST': 'blueprint',
+			'MAGIC_TWO': 'prestihatitator',
+			'MAGIC_THREE': 'shadow manipulator',
+			'SCULPTING_ONE': 'potter\'s wheel',
+			'SHADOW_TWO': 'maxwell',
+			'CARTOGRAPHY_TWO': 'cartographer\'s desk',
+			'ANCIENT_TWO': 'broken ancient pseudoscience station',
+			'ANCIENT_FOUR': 'ancient pseudoscience station',
+			'ORPHANAGE_ONE': 'rock den',
+			'PERDOFFERING_ONE': 'gobbler shrine',
+			'PERDOFFERING_THREE': 'gobbler shrine',
+			'WARGOFFERING_THREE': 'varg shrine',
+			'YOTG': 'year of the gobbler',
+			'YOTV': 'year of the varg',
+			'WINTERS_FEAST': 'winter\'s feast',
+			'HALLOWED_NIGHTS': 'hallowed nights',
+			'SCIENCE_THREE': 'wickerbottom',
+			'MADSCIENCE_ONE': 'mad scientist lab',
+			'PIGOFFERING_THREE': 'pig shrine',
+			'FOODPROCESSING_ONE': 'portable seasoning station',
+			'MOON_ALTAR_TWO': 'celestial altar',
+			'SEAFARING_TWO': 'think tank',
+			'CELESTIAL_ONE': 'celestial orb'
+		}
+		
+		if (map.hasOwnProperty(name))
+			return map[name];
+		return name;
+	}
+	
+	
+	$.getJSON( "json/recipes.json", function( data ) {
+		// Clean up the data
+		window.data.items = [];
+		for(var i=0; i < data.length; i++) {
+			if (data[i]['tab'] == null)
+				continue;
+			data[i].friendlytech = renametech(data[i].tech);
+			window.data.items.push(data[i]);
+		}
+		
 		if (++loader == 2) ready();
 	});
-	$.getJSON( "json/categories.json", function( data ) {
-		window.data.cats = data;
+	$.getJSON( "json/food.json", function( data ) {
+		window.data.food = [];
+		for(var prop in data) {
+			var d = data[prop];
+			if (!d.hasOwnProperty('foodtype'))
+				d['foodtype'] = '';
+			d['friendlyfoodtype'] = d['foodtype'].replace(/FOODTYPE\./g, '');
+			d['friendlytest'] = d['test'].replace(/(names|tags)\./g, '');
+			var lp = new Logipar();
+			lp.caseSensitive = false;
+			try {
+				lp.parse(d['friendlytest']);
+				d['friendlytest'] = lp.stringify(function(n) {
+					if (n.token.type == Token.LITERAL) {
+						return "<strong>" + n.token.literal + "</strong>";
+					}
+				});
+			} catch(e) {
+				console.log(e);
+				console.log(d['friendlytest']);
+			}
+			window.data.food.push(d);
+		}
 		if (++loader == 2) ready();
 	});
 
 
 	window.slug = function(str) {
-		return str.replace(' ', '-').toLowerCase();
+		return str.replace(/\s+/g, '-').replace(/'/g, '').toLowerCase();
 	}
 
 	function ready() {
@@ -30,7 +97,6 @@ requirejs(["backbone", "views/create", "views/gather", "views/recipes", "module_
 			'gather': new GatherView(),
 			'recipes': new RecipesView()
 		});
-		
 		
 		var AppRouter = Backbone.Router.extend({
 			routes: {
@@ -61,6 +127,29 @@ requirejs(["backbone", "views/create", "views/gather", "views/recipes", "module_
 
 
 		// Start Backbone history a necessary step for bookmarkable URL's
-		Backbone.history.start();		
+		Backbone.history.start();
+		
+		// Help overlay
+		$('a.help').on('click', function(e) {
+			e.preventDefault();
+			m = modules.current();
+			var helpdata = m.help();
+			$('.helpmodal .title span').text(helpdata['title']);
+			$('.helpmodal .content').html(helpdata['content']);
+			$('.helpoverlay').addClass('open');
+		});
+
+		$('.helpmodal').on('click', function(e) { e.stopPropagation(); });
+		$('.helpoverlay, .helpmodal .title a').on('click', function(e) {
+			e.preventDefault();
+			$('.helpoverlay').removeClass('open');
+		});
+		
+		$(document).keyup(function(e) {
+			 if (e.key === "Escape") { // escape key maps to keycode `27`
+				$('.helpoverlay.open').removeClass('open');
+			}
+		});
+
 	}		
 });

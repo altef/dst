@@ -1,2 +1,29 @@
 <link rel="stylesheet" href="recipes.css" />
-<p>Nothing to see here..</p>
+<input type="text" data-focus="1" name="filter" placeholder="foodtype is veggie and test contains egg and not test contains veggie" />
+<div class="help">
+	<p>This is really similar to the <em>What can I make</em> section.  You can filter down the boxes, and combine your filters with 
+	logical operators, courtesy of <a href="https://github.io/altef/logipar">Logipar</a>.  Unfortunately, they read awkwardly here.</p>  
+	<p>I'm not sure about how I want this section to work in general.  
+	It may not be overly useful as more than a toy.  We'll see.  If you have any requests, let me know.</p>
+	<p>Like the <em>What can I make</em> tab, you can do:</p>
+	<ul>
+		<li><strong>Foodtype is veggie</strong> to see all the vegetarian options.  The other values seem to be "meat", "goodies", and empty.  You use this option with any of the fields, which are:
+			<ul>
+				<li><strong>Foodtype</strong></li>
+				<li><strong>Sanity</strong></li>
+				<li><strong>Hunger</strong></li>
+				<li><strong>Health</strong></li>
+				<li><strong>Perishtime</strong></li>
+				<li><strong>Cooktime</strong></li>
+				<li><strong>Temperature</strong></li>
+				<li><strong>Temperatureduration</strong></li>
+				<li><strong>Priority</strong> &ndash; if your ingredients match more than one test function, presumably the one with the highest priority will be selected.</li>
+				<li><strong>Name</strong></li>
+				<li><strong>TestM</strong> &ndash; the test function to see if this recipe can be generated from your ingredients.</li>
+			</ul>
+		</li>
+		<li><strong>Less than [amount] [field]</strong>, <strong>[amount field]</strong>, <strong>Greater than [amount field]</strong> can be used with any numeric field: 
+		Sanity, Hunger, Health, Perishtime, Cooktime, Temperature, Temperatureduration, Priority.  The same aliases also apply (<strong>fewer than</strong> and <strong>more than</strong>).</li>
+		<li><strong>Name contains meat</strong> will show all recipes that have "meat" in their name.</li>
+</div>
+<div class="results"></div>
