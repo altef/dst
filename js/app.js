@@ -31,7 +31,14 @@ requirejs(["backbone", "views/create", "views/gather", "views/recipes", "module_
 			'FOODPROCESSING_ONE': 'portable seasoning station',
 			'MOON_ALTAR_TWO': 'celestial altar',
 			'SEAFARING_TWO': 'think tank',
-			'CELESTIAL_ONE': 'celestial orb'
+			'CELESTIAL_ONE': 'celestial orb',
+			'WINTERSFEASTCOOKING_ONE': 'winter\'s feast',
+			'CARRATOFFERING_THREE': 'carrat shrine',
+			'FISHING_ONE': 'tackle receptacle',
+			'HERMITCRABSHOP_ONE': 'hermit crab shop',
+			'HERMITCRABSHOP_THREE': 'hermit crab shop',
+			'HERMITCRABSHOP_SEVEN': 'hermit crab shop',
+			'HERMITCRABSHOP_FIVE': 'hermit crab shop',
 		}
 		
 		if (map.hasOwnProperty(name))

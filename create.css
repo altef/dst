@@ -140,6 +140,17 @@
 	background-color: #afa18d;
 }
 
+#create div.item.carrat-shrine {
+	background-color: #db8812;
+}
+#create div.item.tackle-receptacle {
+	background-color: #e2b7da;
+}
+#create div.item.hermit-crab-shop {
+	background-color: #c59b8b;
+}
+
+
 #create dd.requires {
 	font-style: italic;
 	font-size: 8pt;
@@ -249,6 +260,31 @@
 #create .CUSTOM_ENGINEERING i {
 	background-image: url(i/cats/engineering.png);
 }
+
+#create .CUSTOM_ELIXIRBREWING i {
+	background-image: url(i/cats/ectoherbology.png);
+}
+
+#create .Feast i {
+	background-image: url(i/cats/feast.png);
+}
+
+#create .CUSTOM_BATTLESONGS i {
+	background-image: url(i/cats/stagecraft.png);
+}
+
+#create .CUSTOM_SLINGSHOTAMMO i {
+	background-image: url(i/cats/slingshot.png);
+}
+
+#create .Fishing i {
+	background-image: url(i/cats/fishing.png);
+}
+
+#create .Bottle.Exchange i {
+	background-image: url(i/cats/bottleexchange.png);
+}
+
 
 
 #create .item > .inner {
